@@ -1,0 +1,13 @@
+app_secret_key: UnsecureKeyDoNotUse
+database:
+  username: fernando
+  password: 230593
+  host: localhost:3306
+  schema: schedule_system
+smtp:
+  host: smtp.live.com
+  port: 25
+  email: jorge_barroso_11@hotmail.com
+  password: Montreal2013
+  use_tls: true
+  use_ssl: false

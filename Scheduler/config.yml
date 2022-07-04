@@ -1,0 +1,2 @@
+app_secret_key: UnsecureKeyDoNotUse
+interval_minutes: 1

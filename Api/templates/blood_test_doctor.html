@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Doctor pending blood test email</title>
+    <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+
+<body>
+    <p>Dear {{ doctor_name }}</p>
+    <p>We are sending you this email to make you aware that the patient {{ patient_fullname }} has now a blood test pending. The new pending blood test is specifically the {{ test_name }} test.</p>
+    <p>We encourage you to please get in touch with this patient via your preferred contact method. For security purposes the contact details of this patient are not included in this email.</p>
+    <p>Regards,<br>ScheduleSystem.</p><small>This email address is not monitored and therefore we urge you to not try to reply to it, as we will not see your email.</small>
+    <script src="../static/js/jquery.min.js"></script>
+    <script src="../static/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
